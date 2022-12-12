@@ -1,0 +1,208 @@
+* { box-sizing: border-box; }
+
+html, body {
+    height: 100%;
+}
+a, button {
+    cursor: pointer;
+}
+
+@keyframes fondo {
+    100% {background-position: 15% 50%;}
+}
+
+body {
+    display: grid;
+    min-width: 100%;
+    place-items: center;
+    margin: 0;
+    padding: O 24px;
+    background-image: url( "../img/stacked-waves-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: 
+        fondo 6s infinite alternate linear;
+} 
+.main{
+    width: 550px;
+    padding: 10px 30px 10px;
+    border-radius: 24px;
+    background: #ffffff;
+    text-align: center;
+}
+.login-form{
+    background-color: #fff;
+    width: 70%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+.logo-contenedor a {
+    display: block;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: left;
+    color: #000;
+
+}
+.logo-contenedor {
+    display: block;
+    border-bottom: 1.5px solid #eee;
+    margin-bottom: 30px;
+}
+.logo {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+}
+.form {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.input-contenedor{
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:15px;
+    padding-left: 10px;
+    border-radius: 50px;
+    background-color: #eee;
+    color: #666; 
+}
+
+.input-contenedor input {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    margin: .3em 0 .3em 0;
+    border-radius: 50px;
+    border: none;
+    background-color: #eee;
+    color: #666;
+    font-size: 1em;
+}
+.icon {
+    width: 20px;
+    text-align: inherit;
+    color: #555555;
+    padding-top: 20px;
+    padding-left: 3px;
+    
+}
+.form-iniciar {
+    text-align: center;
+}
+.cancelar {
+    border: none;
+    background-color: #fff;
+}
+.cancelar a {
+    color: #ff7629;
+}
+.form-control {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:15px;
+    padding-left: 10px;
+    border-radius: 50px;
+    background-color: #eee;
+    color: #666; 
+}
+.form-control input {
+    display: block;
+    width: 50%;
+    padding: 10px 12px;
+    margin: .3em 0 .3em 0;
+    border-radius: 50px;
+    border: none;
+    background-color: #eee;
+    color: #666;
+    font-size: 1em;
+}
+.input-contenedor button {
+    margin: auto;
+    padding: 18px;
+    border-radius:0 50px  50px 0;
+    border: none;
+    background-color:transparent;
+    color: #666;
+    font-size: 1em;
+}
+.input-contenedor button:hover {
+    background-color: transparent;
+    border: none;
+}
+.option-pass {
+    padding-left: 0;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.option-pass a{
+    text-decoration: none;
+}
+.option-pass a:hover{
+    background-color: #eee;
+}
+.boton {
+    margin: auto;
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 50px;
+    margin-bottom: 10px ;
+    border: none;
+    background-color: #ff7629 ;
+    color: #fff;
+}
+.boton:hover{
+    background-color: transparent;
+    border: 2px solid #ff7629;
+    box-shadow: 0 0 10px 0 #ff7629 inset,
+    0 0 10px 4px #ff7629;
+    border-radius: 50px;
+    color: #ff7629;
+}
+.form-check {
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.form-option button {
+    background-color: #fff;
+    border: none;
+    color: #ff7629;
+}
+
+.form-option a:hover {
+    background-color: #eee;
+    border: none;
+}
+.iniciar-sesion a {
+text-decoration: none;
+}
+input:focus, select:focus, select, input.form-control:focus {
+
+    outline:none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none;
+
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;
+    background-color: #eee;
+}
+
+
+

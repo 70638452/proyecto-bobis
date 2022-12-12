@@ -1,0 +1,59 @@
+body {
+  font-family:'DM Sans', sans-serif;
+}
+nav {
+  background: #dddddd;
+  font-size: 1.2em;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.logo {
+  width: 10%;
+  margin-right: 5rem;
+}
+.logo img{
+  width: 80%;
+  margin-left: 140px;
+}
+.navbar-collapse {
+  margin-left: 200px;
+}
+.icon-nav {
+  margin-right: 150px;
+}
+.icon-1 {
+  margin-right:15px;
+}
+
+.titulo-1 {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.drop-area {
+  width: 20%;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  padding: 10px 20px;
+  margin-top: 80px;
+  background-color:  #d1d5db;
+  border-radius: 0.25rem;
+}
