@@ -1,0 +1,5 @@
+Alexander Jumpa Vasquez (100%)-Yo hice el Login
+Marco Pumayauli Leyton (100%)-Yo hice el footer
+Jhonatan Losada Tipte (100%)-Yo hice el header
+Piero Revolledo Grados (100%)-Yo hice el bootstrap
+
